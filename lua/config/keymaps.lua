@@ -10,3 +10,7 @@ map("n", "<A-i>", function()
   util.terminal(nil, { cwd = util.root() })
 end)
 map("t", "<A-i>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+
+map("n", "<leader>of", ":let @+ = expand('%')<cr>")
+map("n", "<leader>od", ":let @+ = expand('%:h')<cr>")
+map("n", "<leader>fd", ":let @+ = expand('%:p:h')<cr>")
