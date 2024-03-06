@@ -14,6 +14,7 @@ map("t", "<A-i>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 map("n", "<leader>of", ":let @+ = expand('%')<cr>")
 map("n", "<leader>od", ":let @+ = expand('%:h')<cr>")
 map("n", "<leader>fd", ":let @+ = expand('%:p:h')<cr>")
+map("n", "<leader>ob", "<cmd>only<cr>")
 
 map("n", "<C-n>", "<cmd>NvimTreeToggle<cr>")
-map("n", "<leader>e", "<cmd>NvimTreeFocus<cr>")
+map("n", "<leader>e", "<cmd>NvimTreeFindFile<cr>")
