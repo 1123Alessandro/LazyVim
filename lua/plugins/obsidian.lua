@@ -30,5 +30,6 @@ return {
   keys = {
     { "<leader>ok", "<cmd>ObsidianQuickSwitch<cr>", desc = "Open ObsidianQuick Switcher" },
     { "<leader>on", ":ObsidianNew ", desc = "Create New Obsidian Note" },
+    { "<leader>os", "<cmd>ObsidianSearch<cr>", desc = "Open Obsidian Search" },
   },
 }
