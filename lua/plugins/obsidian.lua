@@ -31,5 +31,7 @@ return {
     { "<leader>ok", "<cmd>ObsidianQuickSwitch<cr>", desc = "Open ObsidianQuick Switcher" },
     { "<leader>on", ":ObsidianNew ", desc = "Create New Obsidian Note" },
     { "<leader>os", "<cmd>ObsidianSearch<cr>", desc = "Open Obsidian Search" },
+    { "<leader>oa", "<cmd>ObsidianFollowLink<cr>", desc = "Follow Obsidian Link" },
+    { "<leader>oo", "<cmd>ObsidianOpen<cr>", desc = "Open Obisidian note in app" },
   },
 }
